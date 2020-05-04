@@ -1,0 +1,89 @@
+h1  {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.budget-container {
+  padding-bottom: 30px;
+}
+
+i {
+  padding-bottom: 10px;
+  color: cadetblue;
+}
+
+#top-row {
+  padding-bottom: 20px;
+}
+
+.budget-container {
+  padding: 20px;
+  border: 5px solid green;
+  border-radius: 10px;
+  color: green;
+}
+
+.budget-container input,
+.budget-container button {
+  color: green;
+  background: none;
+  border-radius: 5px;
+  border-color: green;
+}
+
+.expense-container {
+  padding: 20px;
+  border: 5px solid red;
+  border-radius: 10px;
+  color: red;
+}
+
+.expense-container input,
+.expense-container button {
+  color: red;
+  background: none;
+  border-radius: 5px;
+  border-color: red;
+}
+
+#budget-enter,
+#expense-name-enter,
+#expense-amount-enter {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.main-cat {
+  text-align: center;
+  color: cadetblue;
+}
+
+#curr-budget {
+  color: green;
+}
+
+#curr-expenses {
+  color: red;
+}
+
+#expense-name-list,
+#expense-amount-list {
+  text-align: left;
+}
+
+#empty-p {
+  margin-bottom: 40px;
+}
+
+#expense-icons p {
+  line-height: 24px;
+}
+
+#expense-icons i {
+  padding-bottom: 0;
+  padding-right: 10px;
+}
+
+#expense-icons {
+  margin-bottom: 16px;
+}

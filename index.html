@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Budget App</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" id="top-row">
+        <div class="col-md-5">
+          <div class="budget-container">
+            <p>Please Enter Your Budget</p>
+            <input type="text" id="budget-enter" value="">
+            <button type="button" id="budget-submit">Calculate</button>
+          </div>
+        </div>
+        <div class="col-md-2 main-cat">
+          <p><strong>BUDGET</strong></p>
+          <i class="fas fa-money-bill-alt fa-3x"></i>
+          <h4><strong>$<span id="curr-budget">0</span></strong></h4>
+        </div>
+        <div class="col-md-2 main-cat">
+          <p><strong>EXPENSES</strong></p>
+          <i class="far fa-credit-card fa-3x"></i>
+          <h4><strong>$<span id="curr-expenses">0</span></strong></h4>
+        </div>
+        <div class="col-md-2 main-cat">
+          <p><strong>BALANCE</strong></p>
+          <i class="fas fa-dollar-sign fa-3x"></i>
+          <h4><strong>$<span id="curr-balance">0</span></strong></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="expense-container">
+            <p>Please Enter Your Expense</p>
+            <input type="text" id="expense-name-enter" value="">
+            <p>Please Enter Expense Amount</p>
+            <input type="text" id="expense-amount-enter" value="">
+            <button type="button" id="expense-submit">Calculate</button>
+          </div>
+        </div>
+        <div class="col-md-2 main-cat">
+          <p><strong>EXPENSE</strong></p>
+          <div id="expense-name-list">
+          </div>
+        </div>
+        <div class="col-md-2 main-cat">
+          <p><strong>AMOUNT</strong></p>
+          <div id="expense-amount-list">
+          </div>
+        </div>
+        <div class="col-md-2 main-cat" id="expense-icons-container">
+          <P id="empty-p"></P>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0d1bdf4012.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+  </body>
+</html>
